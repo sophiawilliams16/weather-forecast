@@ -1,5 +1,10 @@
 # 06 Server-Side APIs: Weather Dashboard
 
+## Description 
+
+
+
+
 ## Sources:
 
 1. Input area https://www.w3schools.com/html/html_form_input_types.asp

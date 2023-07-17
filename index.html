@@ -10,84 +10,82 @@
             integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
             crossorigin="anonymous"
         />
+         <link rel="stylesheet" href="./assets/css/style.css" />
     </head>
 
     <body>
         <header>
-            <h1>Weather Dashboard</h1>
+            <h2>Weather Dashboard</h2>
         </header>
-        <main class="container">
-            <section class="row no-gutters">
+        <main>
+            <section class="row">
                 <div class="row align-items-start"></div>
-                <div class="col-6 col-md-4">
-                    <h2>Search for a City:</h2>
+                <div class="col-6 col-md-2">
+                    <h4>Search for a City:</h4>
                     <input type="text"></input>
                     <button class="btn btn-primary">Search</button>
                 </div>
 
-                <div class="col-12 col-md-8">
-                    <h2>Current City</h2>
-                    <h2>5 Day Forecast:</h2>
-                    <div class="card" style="width: 18rem">
-                        <div class="card-body">
-                            <h5 class="card-title">Today</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">
-                                Card subtitle
-                            </h6>
-                            <p class="card-text">Temp:</p>
-                            <p class="card-text">Wind:</p>
-                            <p class="card-text">Humidity:</p>
+                <div class="col-12 col-md-10">
+                    <div class="current-box">
+                        <h2 class="current-city">Current City</h2>
+                        <div>
+                            <p class="temp">Temp:</p>
+                            <p class="wind">Wind:</p>
+                            <p class="humidity">Humidity:</p>
                         </div>
                     </div>
 
-                    <div class="card" style="width: 18rem">
-                        <div class="card-body">
-                            <h5 class="card-title">Tomorrow</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">
-                                Card subtitle
-                            </h6>
-                            <p class="card-text">Temp:</p>
-                            <p class="card-text">Wind:</p>
-                            <p class="card-text">Humidity:</p>
-                        </div>
-                    </div>
+                    <h4>5 Day Forecast:</h4>
 
-                    <div class="card" style="width: 18rem">
-                        <div class="card-body">
-                            <h5 class="card-title">3 Day</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">
-                                Card subtitle
-                            </h6>
-                            <p class="card-text">Temp:</p>
-                            <p class="card-text">Wind:</p>
-                            <p class="card-text">Humidity:</p>
-                        </div>
-                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="box">
+                                <span class="title">Today</span>
+                                <div>
+                                    <p class="card-text">Temp:</p>
+                                    <p class="card-text">Wind:</p>
+                                    <p class="card-text">Humidity:</p>
+                                </div>
+                            </div>
+                       
+                            <div class="box">
+                                <span class="title">Tomorrow</span>
+                                <div>
+                                    <p class="card-text">Temp:</p>
+                                    <p class="card-text">Wind:</p>
+                                    <p class="card-text">Humidity:</p>
+                                </div>
+                            </div>
 
-                    <div class="card" style="width: 18rem">
-                        <div class="card-body">
-                            <h5 class="card-title">4 Day</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">
-                                Card subtitle
-                            </h6>
-                            <p class="card-text">Temp:</p>
-                            <p class="card-text">Wind:</p>
-                            <p class="card-text">Humidity:</p>
-                        </div>
-                    </div>
+                            <div class="box">
+                                <span class="title">Day 3</span>
+                                <div>
+                                    <p class="card-text">Temp:</p>
+                                    <p class="card-text">Wind:</p>
+                                    <p class="card-text">Humidity:</p>
+                                </div>
+                            </div>
 
-                    <div class="card" style="width: 18rem">
-                        <div class="card-body">
-                            <h5 class="card-title">5 Day</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">
-                                Card subtitle
-                            </h6>
-                            <p class="card-text">Temp:</p>
-                            <p class="card-text">Wind:</p>
-                            <p class="card-text">Humidity:</p>
+                            <div class="box">
+                                <span class="title">Day 4</span>
+                                <div>
+                                    <p class="card-text">Temp:</p>
+                                    <p class="card-text">Wind:</p>
+                                    <p class="card-text">Humidity:</p>
+                                </div>
+                            </div>
+
+                            <div class="box">
+                                <span class="title">Day 5</span>
+                                <div>
+                                    <p class="card-text">Temp:</p>
+                                    <p class="card-text">Wind:</p>
+                                    <p class="card-text">Humidity:</p>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
+                     </div>
             </section>
         </main>
 
@@ -96,5 +94,6 @@
             integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
             crossorigin="anonymous"
         ></script>
+        <script src="./assets/js/script.js"></script>
     </body>
 </html>
