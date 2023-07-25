@@ -19,11 +19,11 @@ and open the project in VS Code.
 
 ## Usage
 
-To visit the live site, click here:
+To visit the live site, click here: https://sophiawilliams16.github.io/weather-forecast/
 
 Enter a city of your choice into the search bar and press search to see the current weather and five day forecast. Your previous searches will save to local storage and remain as a button underneath the search bar for future use.
 
-![Demo](assets/images/demo.png)
+![demo](assets/images/demo.png)
 
 ## Credits
 
